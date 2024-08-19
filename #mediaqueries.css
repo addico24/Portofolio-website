@@ -1,0 +1,146 @@
+/* General Styles for Smaller Devices */
+@media (max-width: 768px) {
+    /* Adjust header navigation */
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav a {
+        margin: 10px 0;
+        font-size: 18px;
+    }
+
+    /* Adjust home section */
+    .home-content h1 {
+        font-size: 28px;
+    }
+
+    .home-content h3 {
+        font-size: 20px;
+    }
+
+    .home-content p {
+        font-size: 16px;
+    }
+
+    .home-sci a {
+        font-size: 24px;
+        margin: 0 10px;
+    }
+
+    .circular-frame img {
+        width: 150px;
+        height: 150px;
+    }
+
+    /* Adjust services section */
+    .services-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-item {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    /* Adjust projects section */
+    .projects-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .project-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Adjust about section */
+    .about-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-img img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    /* Adjust contact section */
+    .contact-form {
+        width: 100%;
+    }
+
+    /* Footer adjustments */
+    .footer-container {
+        text-align: center;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+/* Styles for Extra Small Devices */
+@media (max-width: 480px) {
+    .home-content h1 {
+        font-size: 24px;
+    }
+
+    .home-content h3 {
+        font-size: 18px;
+    }
+
+    .home-content p {
+        font-size: 14px;
+    }
+
+    .home-sci a {
+        font-size: 20px;
+    }
+
+    .circular-frame img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .projects-content {
+        gap: 15px;
+    }
+
+    .project-item h3 {
+        font-size: 18px;
+    }
+
+    .project-item p {
+        font-size: 14px;
+    }
+
+    .project-item a {
+        font-size: 14px;
+    }
+
+    /* Adjust about section further */
+    .about-img img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .about-text p {
+        font-size: 14px;
+    }
+
+    /* Adjust contact section further */
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 14px;
+    }
+}
